@@ -10,7 +10,7 @@ const UsersRoutes=require('./routes/user-routes');
 const app=express();
 const cors = require('cors');
 const corsOptions = {
-    origin: 'http://localhost:3000'
+    origin: 'https://ilocate.netlify.app'
   };
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
